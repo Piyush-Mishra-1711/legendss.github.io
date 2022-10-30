@@ -6,6 +6,7 @@ nav .menu {
     display: flex;
     justify-content: space-evenly;
 }
+#na{position: fixed;}
 main {
     width: 100%;
     height: 50vh;
