@@ -15,6 +15,7 @@ main {
     text-align: center;
     color: aliceblue;
 }
+nav{position: fixed;}
 .con {
     animation: aayush 8s infinite linear;
     width: 100%;
