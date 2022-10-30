@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAYUSH_WEBSITE</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+}
+.head1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url('taj.png.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    animation: Ayush 25s infinite ease-out;
+}
+@keyframes Ayush {
+    0% {
+        background-image: url('taj.png.jpg');
+    }
+    25% {
+        background-image: url('red.png');
+    }
+    50% {
+        background-image: url('unity.png');
+    }
+    75% {
+        background-image: url('mandir.png');
+    }
+    100% {
+        background-image: url('goa.png');
+    }
+}
+nav {
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+}
+nav .logo {
+    width: 159%;
+    color: #00b894;
+    text-align: center;
+}
+nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+.section1 h3 {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.section1 h1 {
+    font-size: 55px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.section1 p {
+    font-size: 22px;
+    margin-bottom: 12px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
+button {
+    width: 15%;
+    border-radius: 6px;
+    border-style: solid;
+    height: 30px;
+}
+#btn1 {
+    color: #00b894;
+    background-color: aliceblue;
+    border-color: aliceblue;
+}
+#btn2 {
+    color: aliceblue;
+    background-color: #00b894;
+    border-color: #00b894;
+    margin-left: 29px;
+}
+#btn1:hover {
+    color: aliceblue;
+    background-color: #00b894;
+    border-color: aliceblue;
+}
+#btn2:hover {
+    color: #00b894;
+    background-color: aliceblue;
+    border-color: #00b894;
+}
+.change:after {
+    content: "";
+    animation: Aayush 25s infinite linear;
+     color: #00b894;
+}
+@keyframes Aayush {
+    0% {
+        content: "TAJ MAHAL";
+        color: #0790f9;
+    }
+    25% {
+        content: "RED FORT";
+        color: #f42f50;
+    }
+    50% {
+        content: "STATUE OF UNITY";
+        color: goldenrod;
+    }
+    75% {
+        content: "RAM MANDIR";
+        color: rgb(164, 245, 33);
+    }
+    95% {
+        content: "GOLDEN TEMPLE";
+        color: cadetblue;
+    }
+}
+#blue {
+    color: #00b894;
+    animation: piyush 25s infinite linear;
+}
+#Gallery {
+    color: #00b894;
+    letter-spacing: 40px;
+}
+@keyframes piyush {
+    0% {
+        color: #0265b1;
+    }
+    25% {
+        color: #f42f50;
+    }
+    50% {
+        color: goldenrod;
+    }
+    75% {
+        color: rgb(164, 245, 33);
+    }
+    95% {
+        color: cadetblue;
+    }
+}
+#gallery {
+    color: #00b894;
+    letter-spacing: 18px;
+    word-spacing: 18px;
+}
+.head2 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.hello {
+    display: flex;
+}
+.hello1 {
+    display: flex;
+}
+.section2 {
+    background-color: rgba(86, 229, 254, 0.1);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 84vh;
+    animation: aayush 0.4s infinite linear;
+}
+@keyframes aayush {
+    0% {
+        background-color: rgba(110, 134, 243, 0.1);
+    }
+    25% {
+        background-color: rgba(240, 105, 213, 0.1);
+    }
+    50% {
+        background-color: rgba(240, 109, 150, 0.521);
+    }
+    75% {
+        background-color: rgba(217, 247, 126, 0.664);
+    }
+}
+.hello img {
+    width: 30%;
+    height: 35vh;
+    padding-top: 35px;
+    padding-left: 119px;
+}
+.hello1 img {
+    width: 30%;
+    height: 35vh;
+    padding-top: 35px;
+    padding-left: 119px;
+}
+.head3 {
+    width: 100%;
+    height: 18vh;
+    display: block;
+}
+.hwloo3 {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+}
+.con {
+    animation: aayush 8s infinite linear;
+    width: 100%;
+    height: 118vh;
+    padding-left: 36%;
+    padding-top: 8%;
+    font-size: 22px;
+    font-weight: bold;
+}
+.btn3 {
+    color: aliceblue;
+    background-color: #00b894;
+    border-color: #00b894;
+    border-style: solid;
+    border-radius: 10px;
+}
+.btn3:hover {
+    color: #00b894;
+    background-color: aliceblue;
+    border-color: #00b894;
+}
+
+    </style>
+<link rel="stylesheet" media="screen and (max-width: 1140px)" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Cantarell:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="head1">
+        <nav>
+            <div>
+                <div class="logo">
+                    <h1 class="animated infinite heartBeat">MERA BHARAT</h1>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="#" id="blue">HOME</a>
+                <a href="#Gallery">GALLERY</a>
+                <a href="#">ABOUT</a>
+                <a href="#gallery">CONTACT</a>
+            </div>
+        </nav>
+        <main>
+            <section class="section1">
+                <h3>Welcome To India</h3>
+                <h1>Do Come & Visit <span class="change"></span></h1>
+                <p>India Once Is Not Enough</p>
+                <button id="btn1">LEARN MORE</button>
+                <button id="btn2">SIGNUP HERE</button>
+            </section>
+        </main>
+    </header>
+    <header class="head2">
+        <nav class="nav1">
+            <div class="logo">
+                <h1 class="animated infinite heartBeat" id="Gallery"> GALLERY </h1>
+        </nav>
+        <section class="section2">
+            <div class="hello">
+                <img src="somnath.png" alt="somnath">
+                <img src="lotus.png" alt="lotustemple">
+                <img src="jantar.png" alt="jantarmantar">
+            </div>
+            <div class="hello1">
+                <img src="indiagate.png" alt="indiagate">
+                <img src="hawamahal.png" alt="hawamahal">
+                <img src="qutubminar.png" alt="outubminar">
+            </div>
+        </section>
+    </header>
+    <header class="hwloo3">
+        <nav class="nav1">
+            <div class="logo">
+                <h1 class="animated infinite heartBeat" id="gallery"> CONTACT US</h1>
+        </nav>
+        <div class="con">
+            NAME :<input type="text" placeholder="ENTER YOUR NAME"><br>
+            <br>
+            PHONE NUMBER:<input type="number" placeholder="ENTER MOBILE NUMBER"><br>
+            <br>
+            NATIONALITY:<input type="text" placeholder="ENTER YOUR NATIONALITY"><br>
+            <br>
+            EMAIL :<input type="email" placeholder="ENTER YOUR EMAIL I'd"><br><br>
+            GENDER : Male<input type="radio" name="hixj" id="gender">
+            FEMALE<input type="radio" name="hixj" id="gender"><br><br>
+            <button class="btn3">SUBMIT</button>
+        </div>
+    </header>
+</body>
+</html>
